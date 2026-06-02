@@ -38,7 +38,8 @@ json
         ]
         }
 }
-###Phase 3: Global Content Delivery Network Provisioning (Amazon CloudFront)
+
+**###Phase 3: Global Content Delivery Network Provisioning (Amazon CloudFront)**
 Origin Boundary Selection: Bound the S3 static website web domain endpoint as the primary origin for the delivery network.
 
 Transport Encryption Enforcement: Configured the Viewer Protocol Policy to enforce Redirect HTTP to HTTPS, applying managed TLS handshake protection.
@@ -47,7 +48,7 @@ WAF Layer Management: Maintained cost efficiency by disabling heavy Web Applicat
 
 Default Root Mapping: Set the delivery pipeline's default root object directly to index.html to allow direct-to-domain asset routing.
 
-###Phase 4: Lifecycle Edge Invalidation
+**###Phase 4: Lifecycle Edge Invalidation**
 Applied programmatic edge invalidation targets (/*) to force-purge stale caches across global points of presence (PoPs), seamlessly pushing updated viewport elements and graphic files instantly to web traffic.
     ]
 }
