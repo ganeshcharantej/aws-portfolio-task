@@ -39,7 +39,7 @@ json
         }
 }
 
-**###Phase 3: Global Content Delivery Network Provisioning (Amazon CloudFront)**
+###**Phase 3: Global Content Delivery Network Provisioning (Amazon CloudFront)**
 Origin Boundary Selection: Bound the S3 static website web domain endpoint as the primary origin for the delivery network.
 
 Transport Encryption Enforcement: Configured the Viewer Protocol Policy to enforce Redirect HTTP to HTTPS, applying managed TLS handshake protection.
